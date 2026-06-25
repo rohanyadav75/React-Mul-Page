@@ -1,0 +1,30 @@
+.background-overlay {
+    background-image: url('../images/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+}
+
+.input {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+
+}
+
+.spread-img {
+    background-image: url('../images/contact-hiQDr1Sx.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+}
+
+@media(max-width:768px) {
+    .background-overlay {
+        background-image: url('../images/banner_1-CZKWZCWg (1).png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 20vh;
+    }
+}

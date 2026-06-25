@@ -1,0 +1,127 @@
+button {
+    background-color: #feb000;
+    border-style: none;
+    border-radius: 15px;
+    padding: 7px;
+    color: white;
+}
+
+.spread-img-home {
+    /* Removed brok en image reference */
+}
+
+.color {
+    color: #feb000;
+    font-size: 60px;
+
+}
+
+.txt {
+    font-size: 50px;
+    padding: 0px;
+}
+
+.men-2 {
+    height: auto;
+    width: 85%;
+}
+
+.circle-1 {
+    border-radius: 20%;
+    padding: 20px;
+}
+
+.circle-1 h3 {
+    color: #feb000;
+    font-weight: 500;
+
+}
+
+.shape {
+    background-image: url('../images/shape.png');
+    background-size:    15%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.shape-service {
+    background-image: url('../images/common.png');
+    background-size: 20%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.sh-row {
+    padding: 0px !important;
+}
+.sh-row{
+    padding: 10px !important;
+}
+
+.text-muted {
+    color: #feb000 !important;
+}
+
+.shape-service-f {
+    background-image: url('../images/common.png');
+    background-size: 40%;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.home-card {
+    display: flex;
+    align-items: center;
+}
+
+.home-card:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.btn-icon {
+    color: #feb000;
+}
+
+
+/* Mobile Responsive */
+@media(max-width:768px) {
+    .mob-res {
+        margin-top: 50px !important;
+        width: auto;
+        height: 100%;
+
+    }
+
+    .txt {
+        font-size: 20px;
+    }
+
+    .fw-bolder {
+        font-size: 45px;
+
+    }
+    .shape{
+        padding: 0px !important;
+        width: 100%;
+    }
+    .mob-ser{
+        margin-top: 0px !important;
+    }
+    .circle-1{
+        padding: 50px;
+        margin-top: 50px;
+        border-radius: 10% !important;
+    }
+    .why-content{
+        padding: 20px;
+    }
+    .h-f{
+        padding: 30px;
+        margin-top: -60px !important;
+    }
+}

@@ -1,0 +1,35 @@
+.spread-abt {
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
+    background-image: url('../images/common.png');
+
+}
+
+.spread-img-blog     {
+    background-image: url('../images/common.png');
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: center;
+}
+
+.shape-service-form {
+    background-image: url('../images/contact-hiQDr1Sx.png');
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:768px) {
+    .ab-num {
+        font-size: 18px !important;
+    }
+
+    .ab-bl {
+        padding: 30px;
+    }
+
+    .ab-card {
+        margin-top: 30px;
+    }
+}

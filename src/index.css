@@ -1,0 +1,23 @@
+body {
+    font-family: monospace;
+}
+
+body p {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@media(max-width:768px) {
+
+    .ab-bl{
+        padding: 30px;
+    }
+    .ab-card{
+        margin-top: 30px;
+    }
+}
