@@ -3,7 +3,6 @@ import About from './page/About'
 import Home from './page/Home'
 import Service from './page/Service'
 import Contact from './page/Contact'
-import Try from './page/Try'
 import SmoothScroll from "smooth-scroll";
 import Header from './component/Header'
 import Footer from './component/Footer'
