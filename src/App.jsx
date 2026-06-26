@@ -7,12 +7,13 @@ import SmoothScroll from "smooth-scroll";
 import Header from './component/Header'
 import Footer from './component/Footer'
 import './index.css'
-import { Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
     speedAsDuration: true,
 });
+
 const App = () => {
     return (
         <>
@@ -22,12 +23,9 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/service" element={<Service />} />
                 <Route path="/contact" element={<Contact />} />
-
             </Routes>
             <Footer />
         </>
-
-
     )
 }
 
