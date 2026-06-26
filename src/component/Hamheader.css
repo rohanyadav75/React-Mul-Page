@@ -1,4 +1,12 @@
 /* Header structure */
+/* Hamheader.css */
+.desktop-nav a.active,
+.mobile-links a.active {
+  color: your-highlight-color;
+  font-weight: bold;
+  /* or border-bottom, background, etc. */
+}
+
 
 .header {
   display: flex;
