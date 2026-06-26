@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/React-Mul-Page/',
   server: {
     port: 5173,
   },
