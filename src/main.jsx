@@ -6,11 +6,9 @@ import { BrowserRouter } from 'react-router-dom';
 // import { AppProvider } from './page/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode >
-    <BrowserRouter basename="/React-Mul-Page">
+    <BrowserRouter >
       <App />
     </BrowserRouter>
 
-  </React.StrictMode>
 );
 
