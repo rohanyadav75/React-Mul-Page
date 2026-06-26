@@ -14,7 +14,7 @@ const Header = () => {
 
       {/* Desktop Nav */}
       <nav className="desktop-nav">
-        <Link to="/">Home</Link>
+        <Link to="/" end>Home</Link>
         <Link to="/about">About</Link>
         <Link to="/service">Service</Link>
         <Link to="/contact">Contact</Link>
@@ -39,11 +39,10 @@ const Header = () => {
         </div>
 
         <nav className="mobile-links">
-          <Link to="/" onClick={closeMenu}>Home</Link>
+          <Link to="/" end onClick={closeMenu}>Home</Link>
           <Link to="/about" onClick={closeMenu}>About</Link>
           <Link to="/service" onClick={closeMenu}>Service</Link>
           <Link to="/contact" onClick={closeMenu}>Contact</Link>
-          <Link to="/hook" onClick={closeMenu}>Hook</Link>
 
         </nav>
       </div>
