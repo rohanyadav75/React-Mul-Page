@@ -12,6 +12,7 @@ import { Routes, Route } from 'react-router-dom';
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
     speedAsDuration: true,
+
 });
 
 const App = () => {

@@ -15,11 +15,7 @@ import { Card, Form, CardText, CardTitle, Col, Container, FormGroup, Input, Labe
 import './Home.css';
 
 const Home = () => {
-  const [bgcolor, setBgcolor] = useState("white");
 
-  useEffect(() => {
-    document.body.style.backgroundColor = bgcolor;
-  }, [bgcolor]); // Added dependency array to avoid unnecessary re-renders
 
   return (
     <div> 
@@ -30,7 +26,7 @@ const Home = () => {
               <h1 className='fw-light txt'>We Are Creative</h1>
               <h1 className='fw-bolder color'>Deneb Agency</h1>
               <p>Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu augue egestas laciniaam eu ornare ipsum, quis tristique ligula.</p>
-              <button onClick={() => setBgcolor("green")}>Know More</button>
+              <button>Know More</button>
             </div>
           </Col>
           <Col className="mt-5" md={6}>

@@ -1,7 +1,6 @@
 import React from "react";
 
 import './About.css'
-// import  from '../images/common.png'
 import men2 from '../images/about-tdHAvNOC.png'
 import award from '../images/award-la9r5_KF.png'
 import skill from '../images/skill-kMjIKc8e.png'
@@ -9,13 +8,7 @@ import { FaCaretRight } from "react-icons/fa";
 import formen from '../images/contact-hiQDr1Sx.png'
 import { Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Container, Form, FormGroup, Input, Label, Progress, Row } from 'reactstrap'
 
-
-
 const About = () => {
-  // const [color, setColor] = useState("blue");
-  // const [count, setCount] = useState(0);
-  // const [name] = useState('Rohan')
-
 
   return (
     <div>
@@ -47,11 +40,6 @@ const About = () => {
                   <p>Proin ipsum arcu,</p>
                 </Col>
               </Row>
-
-
-
-
-
             </div>
           </Col>
         </Row>
@@ -135,9 +123,11 @@ const About = () => {
         </Row>
       </Container>
 
-      {/* third */}
+      {/* Blog Section*/}
+
+
       <Container className='mt-5 pt-3 ab-bl'>
-        <h1 className='text-center fw-bold spread-img-blog    '>Our Blog</h1>
+        <h1 className='text-center fw-bold spread-img-blog'>Our Blog</h1>
         <Row className='mt-5 p-0'>
           <Col md={4}>
             <Card
@@ -227,7 +217,9 @@ const About = () => {
       </Container>
 
       {/* four */}
-      <Container  className=' px-5 mt-5'>
+
+
+      <Container className=' px-5 mt-5'>
         <Row className='mt-5 px-5'>
           <Col md={6} className='d-flex p-0 align-items-center '>
             <img className="h-auto w-100 " src={formen} alt="" />
