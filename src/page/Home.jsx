@@ -1,24 +1,12 @@
 import React, { useEffect, useState, createContext } from 'react';
-import men from '../images/banner_1-CZKWZCWg (1).png';
-import men2 from '../images/about-tdHAvNOC.png';
-import icon1 from '../images/icon1.png';
-import shape from '../images/shape.png';
-import icon2 from '../images/icon2.png';
-import { IoMdHappy } from "react-icons/io";
-import { GiPodiumWinner } from "react-icons/gi";
-import { AiOutlineThunderbolt } from "react-icons/ai";
-import icon3 from '../images/icon3.png';
-import { PiNotepadThin } from "react-icons/pi";
-import { FaCaretRight } from "react-icons/fa";
-import formen from '../images/contact-hiQDr1Sx.png';
+import { men, men2, icon1, shape, icon2, icon3, formen } from '../images/img';
+import {IoMdHappy, GiPodiumWinner, AiOutlineThunderbolt, PiNotepadThin, FaCaretRight } from '../icon/icon'
 import { Card, Form, CardText, CardTitle, Col, Container, FormGroup, Input, Label, Row, CardBody, CardSubtitle } from 'reactstrap';
 import './Home.css';
 
 const Home = () => {
-
-
   return (
-    <div> 
+    <div>
       <Container fluid className='shape px-5'>
         <Row className='align-items-center mt-2 p-5'>
           <Col md={6}>
