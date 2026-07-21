@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './page/About'
 import Home from './page/Home'
+import Api from './page/Api'
 import Service from './page/Service'
 import Contact from './page/Contact'
 import SmoothScroll from "smooth-scroll";
@@ -24,6 +25,8 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/service" element={<Service />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/api" element={<Api/>} />
+
             </Routes>
             <Footer />
         </>
