@@ -1,5 +1,5 @@
 .background-overlay {
-    background-image: url('../images/contact-hiQDr1Sx.png');
+    background-image: url('../assest/images/contact-hiQDr1Sx.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,20 +7,20 @@
 }
 
 .spread-img {
-    background-image: url('../images/common.png');
+    background-image: url('../assest/images/common.png');
     background-repeat: no-repeat;
     background-size: 8%;
 }
 
 .spread-img-s{
-    background-image: url('../images/common.png');
+    background-image: url('../assest/images/common.png');
     background-repeat: no-repeat;
     background-size:6%;
     background-position:center;
 }
 
 .spread-img-f{
-    background-image: url('../images/common.png');
+    background-image: url('../assest/images/common.png');
     background-repeat: no-repeat;
     background-size:8%;
     background-position:center;

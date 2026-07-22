@@ -5,8 +5,8 @@ import Api from './page/Api'
 import Service from './page/Service'
 import Contact from './page/Contact'
 import SmoothScroll from "smooth-scroll";
-import Header from './component/Header'
-import Footer from './component/Footer'
+import Header from './component/layout/Header'
+import Footer from './component/layout/Footer'
 import './index.css'
 import { Routes, Route } from 'react-router-dom';
 
