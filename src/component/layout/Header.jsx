@@ -18,7 +18,6 @@ const Header = () => {
         <NavLink to="/about">About</NavLink>
         <NavLink to="/service">Service</NavLink>
         <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/api">API</NavLink>
 
       </nav>
 
@@ -42,7 +41,6 @@ const Header = () => {
           <NavLink to="/about" onClick={closeMenu}>About</NavLink>
           <NavLink to="/service" onClick={closeMenu}>Service</NavLink>
           <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
-          <NavLink to="/api" onClick={closeMenu}>API</NavLink>
 
 
         </nav>

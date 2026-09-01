@@ -9,10 +9,10 @@ const Static = () => {
                 <Row className='align-items-center '>
                     <Col md={6}>
                         <div className="why-content mt-5">
-                            <h1 className='fw-bold spread-img-home'>Over 500+ Completed work & Still Counting
+                            <h1 className='fw-bold spread-img-home'>Proven Marketing Results
 
                             </h1>
-                            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus at orci non risus luctus commodo. Ut nibh tellus, faucibus nec gravida.<br />
+                            <p>We launch and optimize campaigns that drive meaningful growth — from awareness to conversion. Here are a few metrics that show our impact.<br />
                             </p>
                             <button>Read More</button>
                         </div>
@@ -26,16 +26,16 @@ const Static = () => {
                                 <div className="circle-1 text-center bg-light rounded-pill  shadow">
                                     <span className='fs-1  p-2 rounded h-100 w-100'><PiNotepadThin /></span>
 
-                                    <h3 >300+</h3>
-                                    <p>Projects Done</p>
+                                    <h3 >1,200+</h3>
+                                    <p>Campaigns Launched</p>
                                 </div>
                             </Col>
                             <Col md={6}>
                                 <div className="circle-1 text-center bg-light rounded-pill shadow">
                                     <span className='fs-1  p-2 rounded h-100 w-100'><IoMdHappy /></span>
 
-                                    <h3>300+</h3>
-                                    <p>Projects Done</p>
+                                    <h3>950+</h3>
+                                    <p>Satisfied Clients</p>
                                 </div>
                             </Col>
                         </Row>
@@ -44,15 +44,15 @@ const Static = () => {
                                 <div className="circle-1 text-center bg-light shadow rounded-pill">
                                     <span className='fs-1  p-2 rounded h-100 w-100'><AiOutlineThunderbolt /></span>
 
-                                    <h3>300+</h3>
-                                    <p>Projects Done</p>
+                                    <h3>1M+</h3>
+                                    <p>Leads Generated</p>
                                 </div>
                             </Col>
                             <Col md={6}>
                                 <div className="circle-1 text-center bg-light shadow rounded-pill">
                                     <span className='fs-1  p-2 rounded h-100 w-100'><GiPodiumWinner /></span>
-                                    <h3>300+</h3>
-                                    <p>Projects Done</p>
+                                    <h3>45</h3>
+                                    <p>Industry Awards</p>
                                 </div>
                             </Col>
                         </Row>

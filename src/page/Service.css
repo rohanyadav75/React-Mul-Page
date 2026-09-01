@@ -1,9 +1,18 @@
 .background-overlay {
-    background-image: url('../assest/images/contact-hiQDr1Sx.png');
+    background-image: linear-gradient(rgba(8, 15, 30, 0.4), rgba(8, 15, 30, 0.4)), url('../assest/images/download.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-height: 65vh;
     height: 65vh;
+}
+
+.ser-con {
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #fff;
 }
 
 .spread-img {
@@ -12,22 +21,58 @@
     background-size: 8%;
 }
 
-.spread-img-s{
+.spread-img-s {
     background-image: url('../assest/images/common.png');
     background-repeat: no-repeat;
-    background-size:6%;
-    background-position:center;
+    background-size: 6%;
+    background-position: center;
 }
 
-.spread-img-f{
+.spread-img-f {
     background-image: url('../assest/images/common.png');
     background-repeat: no-repeat;
-    background-size:8%;
-    background-position:center;
+    background-size: 8%;
+    background-position: center;
 }
-.ser-pro{
+
+.ser-pro {
     padding: 0;
 }
-.ser{
+
+.ser {
     padding: 20px !important;
+}
+
+.ser-pro img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 460px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+@media (max-width: 768px) {
+    .background-overlay {
+        background-image: linear-gradient(rgba(8, 15, 30, 0.45), rgba(8, 15, 30, 0.45)), url('../assest/images/download.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 22vh;
+        height: 22vh;
+    }
+
+    .ser-con {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .ser {
+        padding: 10px !important;
+    }
+
+    .ser-pro img {
+        max-height: 260px;
+        object-position: center;
+    }
 }

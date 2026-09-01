@@ -11,10 +11,23 @@ const Contact = () => {
                         <img className="h-auto w-100 " src={formen} alt="" />
                     </Col>
                     <Col md={6}>
-                        <h1 className='text-center fw-bold spread-img-home'>Get In Touch</h1>
-                        <p>Some quick example text to build on the card title and make up the bulk of the card‘s content.</p>
+                        <h1 className='text-center fw-bold spread-img-home'>Talk to a Digital Marketing Expert</h1>
+                        <p>Share your goals and challenges — we’ll recommend a tailored strategy to acquire customers and scale your business.</p>
                         <Form>
                             <Row>
+                                <Col md={6}>
+                                    <FormGroup>
+                                        <Label for="exampleName">
+                                            Name
+                                        </Label>
+                                        <Input
+                                            id="exampleName"
+                                            name="Name"
+                                            placeholder="Enter your name"
+                                            type="text"
+                                        />
+                                    </FormGroup>
+                                </Col>
                                 <Col md={6}>
                                     <FormGroup>
                                         <Label for="exampleEmail">
@@ -23,83 +36,27 @@ const Contact = () => {
                                         <Input
                                             id="exampleEmail"
                                             name="email"
-                                            placeholder="with a placeholder"
+                                                placeholder="Enter your email"
                                             type="email"
                                         />
                                     </FormGroup>
                                 </Col>
-                                <Col md={6}>
-                                    <FormGroup>
-                                        <Label for="examplePassword">
-                                            Password
-                                        </Label>
-                                        <Input
-                                            id="examplePassword"
-                                            name="password"
-                                            placeholder="password placeholder"
-                                            type="password"
-                                        />
-                                    </FormGroup>
-                                </Col>
                             </Row>
                             <FormGroup>
-                                <Label for="exampleAddress">
-                                    Address
+                                <Label for="examplePhone">
+                                    Phone
                                 </Label>
                                 <Input
-                                    id="exampleAddress"
-                                    name="address"
-                                    placeholder="1234 Main St"
+                                    id="examplePhone"
+                                    name="phone"
+                                        placeholder="Enter your phone number"
                                 />
                             </FormGroup>
-                            <FormGroup>
-                                <Label for="exampleAddress2">
-                                    Address 2
-                                </Label>
-                                <Input
-                                    id="exampleAddress2"
-                                    name="address2"
-                                    placeholder="Apartment, studio, or floor"
-                                />
-                            </FormGroup>
-                            <Row>
-                                <Col md={6}>
-                                    <FormGroup>
-                                        <Label for="exampleCity">
-                                            City
-                                        </Label>
-                                        <Input
-                                            id="exampleCity"
-                                            name="city"
-                                        />
-                                    </FormGroup>
-                                </Col>
-                                <Col md={4}>
-                                    <FormGroup>
-                                        <Label for="exampleState">
-                                            State
-                                        </Label>
-                                        <Input
-                                            id="exampleState"
-                                            name="state"
-                                        />
-                                    </FormGroup>
-                                </Col>
-                                <Col md={2}>
-                                    <FormGroup>
-                                        <Label for="exampleZip">
-                                            Zip
-                                        </Label>
-                                        <Input
-                                            id="exampleZip"
-                                            name="zip"
-                                        />
-                                    </FormGroup>
-                                </Col>
-                            </Row>
+                           
+                           
 
                             <button>
-                                Submit
+                                Send Message
                             </button>
                         </Form>
 

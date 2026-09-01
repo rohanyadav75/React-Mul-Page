@@ -1,18 +1,27 @@
 const express = require("express");
 const cors = require("cors");
 
-const userRoutes = require("./routes/userRoutes");
-
 const app = express();
 
 app.use(cors());
 
-app.use(express.json());
+app.get("/api/users", (req, res) => {
 
-app.use("/api/users", userRoutes);
+  const users = [
+    {
+      id: 1,
+      name: "Rohan Yadav"
+    },
+    {
+      id: 2,
+      name: "Rohit Yadav"
+    }
+  ];
 
-const PORT = 5000;
+  res.json(users);
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+});
+
+app.listen(5000, () => {
+  console.log("Server is running on port 5000");
 });

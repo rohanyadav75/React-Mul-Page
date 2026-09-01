@@ -11,9 +11,10 @@ import development from './service_2-5PXNrvK4.png';
 import launch from './service_3-jHV7r_Pj.png';
 import analysis from './service_1-ZUEv7Wpv.png';
 import contact from './contact.png' 
+import services from './Services.png'
 
 
 
 
 
-export { men, men2, icon1, icon2, shape, icon3, formen, skill, award, development, launch, analysis, contact };
+export { services, men, men2, icon1, icon2, shape, icon3, formen, skill, award, development, launch, analysis, contact };

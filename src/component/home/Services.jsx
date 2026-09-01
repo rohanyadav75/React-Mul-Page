@@ -8,12 +8,11 @@ function Services() {
 
       <div className="text-center sh-row">
         <h1 className="fw-bold spread-img-home">
-          Our Service
+          Digital Marketing Services
         </h1>
 
         <p>
-          When unknown printer took a gallery of type and scrambled it to
-          make a type specimen book.
+          Data-driven marketing across channels: SEO, paid media, social, content and analytics to help you reach the right audience and convert them into customers.
         </p>
       </div>
 

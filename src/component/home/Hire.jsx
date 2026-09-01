@@ -14,12 +14,11 @@ const Hire = () => {
 
                     <Col md={6}>
                         <div className="why-content mt-5">
-                            <h1 className='fw-bold spread-img-home'>Why You Hire Us?
+                            <h1 className='fw-bold spread-img-home'>Why Hire Deneb Digital?
                             </h1>
-                            <p>Proin ipsum arcu, lobortis id ullamcorper nec, vehicula eget magna. Sed ut malesuada magna, eget lacinia sapien. Nam molestie non ex sit amet ornare. Nunc in pellentesque ipsum, vel vulputate sapien.
-                                Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.
+                            <p>We combine creative strategy with measurable execution — search, social, paid and content — to deliver growth. Our team focuses on clear KPIs, continuous optimization and transparent reporting so you see real business results.
                             </p>
-                            <button>Read More</button>
+                            <button>See Case Studies</button>
 
                         </div>
                     </Col>
