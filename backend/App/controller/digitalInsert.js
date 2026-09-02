@@ -14,14 +14,15 @@ const digitalInsert = (req, res) => {
         .then(() => {
             res.send({
                 status: 1,
-                message: "data saved successfull"
-            })
-                .catch((err) => {
-                    res.send({
-                        status: 0,
-                        message: "data notsaved successfull"
-                    })
-                })
+                message: "data saved successfully"
+            });
         })
+        .catch((err) => {
+            res.send({
+                status: 0,
+                message: "data not saved",
+                error: err.message
+            });
+        });
 }
 module.exports = digitalInsert
