@@ -1,0 +1,89 @@
+.background-overlay {
+    background-image: url('../images/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+}
+
+.input {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+
+}
+
+.spread-img {
+    background-image: url('../images/contact-hiQDr1Sx.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+}
+
+.contact-section {
+    padding: 80px 0;
+}
+
+.contact-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-content {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-content h2 {
+    margin-bottom: 16px;
+}
+
+.contact-content p {
+    margin-bottom: 22px;
+    line-height: 1.7;
+}
+
+.contact-content .form-group {
+    margin-bottom: 18px;
+}
+
+.contact-content button {
+    margin-top: 12px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #feb000;
+    color: #fff;
+    font-weight: 600;
+}
+
+@media(max-width:768px) {
+    .background-overlay {
+        background-image: url('../images/banner_1-CZKWZCWg (1).png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 20vh;
+    }
+
+    .contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-content {
+        padding-left: 0;
+        margin-top: 24px;
+    }
+}
