@@ -6,13 +6,11 @@ import { content, organic, paid } from '.'
 const Blog = () => {
     return (
         <div>
-            <Container className='mt-5'>
+            <Container className='mt-5 section-block'>
                 <h1 className='text-center fw-bold spread-img-home'>Insights & Marketing Tips</h1>
-                <Row className='mt-5'>
+                <Row className='mt-4 g-4'>
                     <Col md={4}>
-                        <Card className='ab-bl'
-
-                        >
+                        <Card className='ab-bl h-100'>
                             <img
                                 alt="Organic"
                                 src={organic}
@@ -31,15 +29,13 @@ const Blog = () => {
                                 <CardText>
                                     Practical tactics for on-page SEO, content planning, and technical fixes that increase organic visibility.
                                 </CardText>
-                                <span className='rounded  text-center fs-7 h-100 w-100'><FaCaretRight className='btn-icon' />Read More</span>
+                                <span className='rounded text-center fs-7 h-100 w-100'><FaCaretRight className='btn-icon' />Read More</span>
 
                             </CardBody>
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card className='ab-bl'
-
-                        >
+                        <Card className='ab-bl h-100'>
                             <img
                                 alt="paid"
                                 src={paid}
@@ -58,15 +54,13 @@ const Blog = () => {
                                 <CardText>
                                     Some quick example text to build on the card title and make up the bulk of the card‘s content.
                                 </CardText>
-                                <span className='rounded  text-center fs-7 h-100 w-100'><FaCaretRight className='btn-icon' />Read More</span>
+                                <span className='rounded text-center fs-7 h-100 w-100'><FaCaretRight className='btn-icon' />Read More</span>
 
                             </CardBody>
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card className='ab-bl'
-
-                        >
+                        <Card className='ab-bl h-100'>
                             <img
                                 alt="content"
                                 src={content}
@@ -84,7 +78,7 @@ const Blog = () => {
                                 <CardText>
                                     Some quick example text to build on the card title and make up the bulk of the card‘s content.
                                 </CardText>
-                                <span className='rounded  text-center fs-7 h-100 w-100'><FaCaretRight className='btn-icon' />Read More</span>
+                                <span className='rounded text-center fs-7 h-100 w-100'><FaCaretRight className='btn-icon' />Read More</span>
 
                             </CardBody>
                         </Card>

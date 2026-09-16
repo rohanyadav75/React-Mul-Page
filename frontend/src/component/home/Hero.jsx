@@ -6,8 +6,8 @@ import { Col, Container, Row } from 'reactstrap';
 const Hero = () => {
     return (
         <div>
-            <Container fluid className='shape px-5'>
-                <Row className='align-items-center mt-2 p-5'>
+            <Container fluid className='shape px-5 section-block'>
+                <Row className='align-items-center g-4 mt-2 p-4 p-md-5'>
                     <Col md={6}>
                         <div className="content">
                             <h1 className='fw-light txt'>Digital Marketing That Grows Your Brand</h1>
@@ -16,9 +16,9 @@ const Hero = () => {
                             <button>Learn More</button>
                         </div>
                     </Col>
-                    <Col className="mt-5" md={6}>
+                    <Col md={6} className="mt-md-0 mt-4">
                         <div
-                            className='rounded-4'
+                            className='rounded-4 hero-visual'
                             style={{
                                 backgroundImage: `url(${services})`,
                                 backgroundSize: 'cover',

@@ -5,8 +5,8 @@ import { Card, CardText, CardTitle, Col } from 'reactstrap'
 const ServiceCard = ({service}) => {
   return (
     <>
-      <Col md={4} className="mob-res mb-4">
-        <Card className="home-card p-3 px-5 h-100">
+      <Col md={4} lg={4} className="mob-res mb-4">
+        <Card className="home-card h-100">
 
           <img
             className="home-icon"
@@ -22,9 +22,9 @@ const ServiceCard = ({service}) => {
             {service.description}
           </CardText>
 
-          <span className="rounded text-center fs-7 h-100 w-100">
+          <span className="service-card-link">
             <FaCaretRight className="btn-icon" />
-            Read More
+            <span>Read More</span>
           </span>
 
         </Card>

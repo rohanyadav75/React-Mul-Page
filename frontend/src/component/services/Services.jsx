@@ -19,9 +19,9 @@ const Services = () => {
                 }}
             >
                 <div className="ser-con px-5">
-                    <h1 className='fw-bold'>Our Digital Marketing Services
+                    <h1 className='fw-bold text-white'>Our Digital Marketing Services
                     </h1>
-                    <p style={{ color: '#feb000' }}>HOME<span className='fs ser-icon'><FaAngleRight /></span>SERVICES</p>
+                    <p style={{display:'flex',alignItems:'center',  color: '#feb000' }}>HOME<span className='fs ser-icon'><FaAngleRight /></span>SERVICES</p>
 
                 </div>
             </div>
@@ -39,13 +39,13 @@ const Services = () => {
 
                 {/* Service-1 */}
                 <div className="ser-pro mt-5 container-fluid">
-                    <Row className='container-fluid ser px-5'>
-                        <Col md={6}>
+                    <Row className='container-fluid ser px-5 align-items-center'>
+                        <Col md={6} className="service-visual-col">
                             <img src={analysis} className='h-auto w-100 ' alt="" />
                         </Col>
                         <Col className='d-flex align-items-center' md={6}>
-                            <div className='text-center mt-5'>
-                                <span className='fs-1 shadow p-2 rounded h-100 w-100'><IoIosAnalytics /></span>
+                            <div className='text-center service-copy'>
+                                <span className='service-icon'><IoIosAnalytics /></span>
                                 <h2 className='fw-bold mt-4'>Strategy & Research
                                 </h2>
                                 <p>Audience research, competitive analysis, and KPI definition to create a focused marketing strategy that targets high-value customers.</p>
@@ -56,19 +56,18 @@ const Services = () => {
 
                 {/* Service-2 */}
 
-                <div className="ser-pro  container">
-                    <Row className='container-fluid ser px-5'>
-                        <Col className='d-flex align-items-center' md={6}>
-                            <div className='text-center'>
-                                <span className='fs-1 shadow p-2 rounded h-0 w-100'><CiDesktop /></span>
+                <div className="ser-pro container">
+                    <Row className='container-fluid ser px-5 align-items-center'>
+                        <Col className='d-flex align-items-center order-2 order-md-1' md={6}>
+                            <div className='text-center service-copy'>
+                                <span className='service-icon'><CiDesktop /></span>
                                 <h2 className='fw-bold mt-4'>Campaign Setup & Creative
                                 </h2>
                                 <p>Landing pages, ad creative, content plans and technical implementations tailored to convert your target audiences across channels.</p>
                             </div>
                         </Col>
 
-
-                        <Col md={6}>
+                        <Col md={6} className="service-visual-col order-1 order-md-2">
                             <img src={development} className='h-auto w-100 ' alt="" />
                         </Col>
                     </Row>
@@ -76,14 +75,14 @@ const Services = () => {
 
                 {/* Service-3 */}
 
-                <div className="ser-pro  container-fluid">
-                    <Row className='container-fluid ser px-5'>
-                        <Col md={6}>
+                <div className="ser-pro container-fluid">
+                    <Row className='container-fluid ser px-5 align-items-center'>
+                        <Col md={6} className="service-visual-col">
                             <img src={launch} className='h-auto w-100 ' alt="" />
                         </Col>
                         <Col className='d-flex align-items-center' md={6}>
-                            <div className='text-center mt-5'>
-                                <span className='fs-1 shadow p-2 rounded h-0 w-100'><MdRocketLaunch /></span>
+                            <div className='text-center service-copy'>
+                                <span className='service-icon'><MdRocketLaunch /></span>
                                 <h2 className='fw-bold mt-4'>Launch & Optimization
                                 </h2>
                                 <p>Multivariate testing, bid and budget optimization, and continuous creative refreshes to maximize ROI and lower acquisition costs.</p>

@@ -4,7 +4,7 @@ import ServiceCard from "../../data/ServiceCard";
 
 function Services() {
   return (
-    <Container fluid className="px-5 pt-1">
+    <Container fluid className="px-5 pt-1 section-block">
 
       <div className="text-center sh-row">
         <h1 className="fw-bold spread-img-home">
@@ -16,7 +16,7 @@ function Services() {
         </p>
       </div>
 
-      <Row className="mt-3 mob-ser">
+      <Row className="mt-4 g-4 mob-ser">
 
         {services.map((service) => (
           <ServiceCard
