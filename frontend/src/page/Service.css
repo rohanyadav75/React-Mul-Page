@@ -1,0 +1,173 @@
+.background-overlay {
+    background-image: linear-gradient(rgba(8, 15, 30, 0.4), rgba(8, 15, 30, 0.4)), url('../assest/images/download.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 65vh;
+    height: 65vh;
+}
+
+.ser-con {
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #fff;
+}
+
+.ser-con h1 {
+    font-size: clamp(2.1rem, 5vw, 4rem);
+    line-height: 1.15;
+}
+
+.ser-con p {
+    color: #feb000;
+    letter-spacing: 0.04em;
+}
+
+.spread-img {
+    background-image: url('../assest/images/common.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+}
+
+.spread-img-s {
+    background-image: url('../assest/images/common.png');
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: center;
+}
+
+.spread-img-f {
+    background-image: url('../assest/images/common.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: center;
+}
+
+.ser-pro {
+    padding: 0;
+}
+
+.ser {
+    padding: 20px !important;
+}
+
+.ser-pro img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 460px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.service-copy {
+    width: 100%;
+}
+
+.service-icon {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    line-height: 1;
+    margin: 0 auto;
+    box-shadow: inset 0 0 0 2px rgba(15, 23, 42, 0.02);
+    color: #111;
+}
+
+.service-icon svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+}
+
+.read-more-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #111;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .background-overlay {
+        background-image: linear-gradient(rgba(8, 15, 30, 0.45), rgba(8, 15, 30, 0.45)), url('../assest/images/download.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 22vh;
+        height: 22vh;
+    }
+
+    .ser-con {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .ser-con h1 {
+        font-size: clamp(2rem, 9vw, 2.6rem);
+    }
+
+    .ser-con p {
+        font-size: 0.82rem;
+    }
+
+    .ser {
+        padding: 10px !important;
+    }
+
+    .service-step {
+        margin-top: 1rem;
+    }
+
+    .service-step .row {
+        display: block !important;
+    }
+
+    .service-visual-col {
+        display: none;
+    }
+
+    .service-copy {
+        text-align: center;
+        padding: 1rem 0.5rem 1.5rem;
+    }
+
+    .service-copy h2 {
+        font-size: clamp(1.9rem, 7vw, 2.5rem);
+        line-height: 1.15;
+        margin-top: 1.25rem !important;
+        margin-bottom: 0.8rem;
+    }
+
+    .service-copy p {
+        max-width: 520px;
+        margin: 0 auto;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .service-icon {
+        width: 90px;
+        height: 90px;
+        font-size: 2.5rem;
+        margin: 0.5rem auto 0;
+    }
+
+    .read-more-link {
+        margin-top: 0.75rem;
+        font-size: 1.1rem;
+    }
+
+    .ser-pro img {
+        max-height: 260px;
+        object-position: center;
+    }
+}
